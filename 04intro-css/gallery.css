@@ -65,7 +65,7 @@ main p {
 }
 
 main ol {
-    padding: .5rem 3vw;
+    padding: .63rem 3vw;
     background-color: #F2F2F2; 
 }
 
@@ -78,11 +78,21 @@ main dl dd {
     font-size: .9rem;
 }
 
-main ul {
+main .first-list {
+    list-style-type: square;
+}
+
+main .first-list li {
+    line-height: 150%;
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+}
+
+main .second-list {
     list-style-type: circle;
 }
 
-main ul li {
+main .second-list li {
     line-height: 125%;
     margin-bottom: .5rem;
     font-size: .9rem;
