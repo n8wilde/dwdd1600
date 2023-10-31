@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Najawi Gallery: Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Utah's finest contemporary art gallery">
+        <meta name="author" content="Nate Wilde">
+        <link rel="stylesheet" href="gallery.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <!-- start of the page header -->
+        <header>
+            <h1>Najawi Gallery</h1>
+            <p>Utah's finest contemporary art gallery</p>
+        </header>
+         <!-- start of the page header -->
+        <nav>
+            <ul>
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="exhibitions.html">Exhibitions</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li class="active"><a href="shop.html">Shop</a></li>
+
+            </ul>
+        </nav>
+         <!-- start of the page header -->
+        <main>
+        <h1>Shop</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+
+
+            <fieldset>
+            <legend>Artwork</legend>
+                <label>Currently For Sale
+                <select name="artwork">
+                <option value="none">Please Select</option>
+                <option value="morning">Daniel Arsham - Falling Clock - $700.00 USD</option>
+                <option value="noon">Najawi Gallery - T-Shirt (S) - $40.00 USD</option>
+                <option value="noon">Najawi Gallery - T-Shirt (M) - $40.00 USD</option>
+                <option value="afternoon">Chris Lux - Night Garden - $245.00 USD</option>
+                <option value="evening">Delfin Finley - Sin Fin - $550.00 USD</option>
+                <option value="evening">Blue The Great - Untitled Unmastered - $225.00 USD</option>
+                </select>
+            </label>
+            </fieldset>
+
+
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+            <label>Email*<input type="email" name="email" required></label>
+            <label>Credit Card Number*<input type="text" name="creditcard" required placeholder="2874-2399-1881-2501"></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Delivery Method</legend>
+                <label><input type="radio" name="method" value= "Overnight"> Overnight Shipping (24 hours)</label>
+                <label><input type="radio" name="method" value= "2 Day"> 2 Day Shipping (1-2 days)</label>
+                <label><input type="radio" name="method" value= "Standard"> Standard Shipping (3-5 days)</label>
+
+            </fieldset>
+
+            <fieldset>
+            <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="porch" value="chosen"> Front Porch</label>
+                <label><input type="checkbox" name="deck" value="chosen"> Back Deck</label>
+                <label><input type="checkbox" name="driveway" value="chosen"> Driveway</label>
+                <label><input type="checkbox" name="garage" value="chosen"> Inside the Garage</label>
+
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+
+
+
+        <input type="submit" value="Confirm Purchase">
+        </form>
+
+        </main>
+         <!-- start of the page header -->
+        <footer>
+         <p>&copy; 2023 &bull; Nate Wilde &bull; <a href="mailto:10813662@uvu.edu">Email us</a></p>   
+        </footer>
+
+    </body>
+</html>
