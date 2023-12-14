@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Vacation Website: Contact Page</title>
+        <link rel="stylesheet" href="adventure.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,800&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="It's time to explore!">
+        <meta name="author" content="Nate Wilde">
+
+    </head>
+    <body>
+        <!-- start of the page header -->
+        <header>
+            <h1>Whiz Travel</h1>
+            <p>It's time to explore!</p>
+        </header>
+        <!-- start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="video.html">Explore</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <!-- start of the page content -->
+        <main>
+        <h1>Contact</h1>
+        <p>Sign up for our <b>FREE</b> newsletter!</p>
+        <form method="get" class="myForm" action="thanks.html">
+
+
+
+            <fieldset>
+            <legend>Newsletter</legend>
+                <label>Length of Subscription
+                <select name="artwork">
+                <option value="none">Please Select</option>
+                <option value="1month">1 month</option>
+                <option value="3months">3 months</option>
+                <option value="6months">6 months</option>
+                <option value="1year">1 year</option>
+                </select>
+            </label>
+            </fieldset>
+
+
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Phone Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+            <label>Email*<input type="email" name="email" required></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Type</legend>
+                <label><input type="radio" name="method" value= "Overnight"> Digital (email)</label>
+                <label><input type="radio" name="method" value= "2 Day"> Physical Copy</label>
+                <label><input type="radio" name="method" value= "Standard"> Both</label>
+
+            </fieldset>
+
+            <fieldset>
+            <legend>Stay up to date</legend>
+
+                <label> I want receive updates and promotional offers
+                    <input type="checkbox" name="stickers" value="chosen"> Yes
+                </label>
+
+
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+
+
+
+        <input type="submit" value="Confirm">
+        </form>
+       
+        </main>
+         <!-- start of the page footer -->
+        <footer>
+        <p>&copy; 2023 &bull; Nate Wilde &bull; <a href="mailto:10813662@uvu.edu">Email Us</a></p>
+        </footer>
+
+    </body>
+</html>
