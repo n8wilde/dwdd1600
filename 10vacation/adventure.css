@@ -1,3 +1,7 @@
+/* prevent problems with different browsers */
+* {box-sizing: border-box;}
+
+
 body {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 16px;
